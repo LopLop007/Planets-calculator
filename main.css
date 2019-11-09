@@ -1,0 +1,129 @@
+body{
+    font-family: Verdana;
+    /*background-image: linear-gradient(to bottom,rgb(94, 67, 243),darkblue,black);*/
+    background-color: black;
+    color:white;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+}
+
+section{
+    padding: 1em;
+}
+
+main{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: 20em 25em 25em 25em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "l1c1 l1c1 l1c1"
+    "l2c1 l2c2 l2c3"
+    "l3c1 l3c2 l3c3"
+    "l4c1 l4c2 l4c3"
+
+}
+
+section.l1c1{
+    grid-area: l1c1;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+
+section.l2c1{
+    grid-area: l2c1;
+
+}
+
+section.l2c2{
+    grid-area: l2c2;
+
+}
+section.l2c3{
+    grid-area: l2c3;
+
+}
+section.l3c1{
+    grid-area: l3c1;
+
+}
+section.l3c2{
+    grid-area: l3c2;
+
+}
+section.l3c3{
+    grid-area: l3c3;
+
+}
+section.l4c1{
+    grid-area: l4c1;
+
+}
+section.l4c2{
+    grid-area: l4c2;
+
+}
+section.l4c3{
+    grid-area: l4c3;
+
+}
+
+#param{
+    width: 300px;
+    height: 350px;
+    margin:auto;
+}
+
+div{
+    padding: 10px;
+}
+
+.plan{
+    display: flex;
+    margin:auto;
+    max-width: 180px;
+    border-radius: 8em;
+}
+
+#sat_cons{
+    max-width: 250px;
+}
+
+h4{
+    margin-top: -5px;
+    text-align: center;
+
+}
+
+.pesos{
+    text-align: center;
+    margin: auto;
+    color: black;
+    width: 150px;
+    
+}
+
+#bot{
+    margin: auto;
+    width: 100px;
+    margin-left:8em;
+    margin-top: 1em;
+    background-color: white;
+    padding:1em;
+    border-radius: 2em;
+    box-shadow: 2px 4px rgb(14, 13, 13);
+    border:none;
+}
+
+
+p{
+    background: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius:2em;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+}
